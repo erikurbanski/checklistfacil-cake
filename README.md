@@ -54,6 +54,8 @@ api-cake.postman_collection.json
 ```bash
 sail artisan send-emails 
 ````
+O comando acima pode ser configurado em uma cron para rodar em horarios especifico ou em intervalos, para performance.
+
 - Para executar a fila basta executar o seguinte comando, que ele vai ficar aguardando a fila para começar a disparar
 ```bash
 sail artisan queue:work
