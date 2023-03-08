@@ -67,7 +67,7 @@ sail artisan queue:work
 **Por se tratar de um teste o sistema ira disparar os emails que serao recebidos usando mailpit que ja vem configurado por padrão no projeto do laravel utilizando o Sail, basta acessar a url
 [`http://localhost:8025`](http://localhost:8025);
 
-### Regras de disparo de emails
+### Regras de disparo de emails 
 **Para que ocorra o disparo dos emails, existem algumas regras que precisam ser seguidas:**
 - Precisa ter em estoque o bolo escolhido pelo usuario para ser avisado, caso nao tenha a quantidade em estoque nenhum email sobre aquele bolo sera disparado;
 - Feito o disparo o sistema seta o campo email_sent do cliente como 1, fazendo com que não repita o disparo novamente para o mesmo.
