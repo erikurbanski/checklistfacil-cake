@@ -60,7 +60,7 @@ O comando acima pode ser configurado em uma cron para rodar em horarios especifi
 ```bash
 sail artisan queue:work
 ````
-- Algumas observações, so será criado o job especifico para aquele cliente se o bolo em questão cadastrado pra ele estiver com estoque, caso contrário não sera criada o job e nao irá enviar o email para o mesmo.
+- Algumas observações, so será criado o job especifico para aquele cliente se o bolo dele em questão cadastrado estiver com estoque, caso contrário não sera criada o job, obviamente o email não será disparado.
 
 
 ### Emails
