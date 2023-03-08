@@ -1,4 +1,4 @@
-<p align="center"><a href="https://checklistfacil.com/" target="_blank"><img src="https://www.checklistfacil.com/wp-content/uploads/2022/07/logo_checklist_facil.webp" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://checklistfacil.com/" target="_blank"><img src="https://www.checklistfacil.com/wp-content/uploads/2022/07/logo_checklist_facil.webp" width="450"></a></p>
 
 
 ## Sobre o Projeto
